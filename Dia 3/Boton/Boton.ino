@@ -1,6 +1,6 @@
 //BOTON
-#define boton 2  //Dirección de entrada 
-int cta = 0; //Contador
+#define boton 2   
+int cta = 0; 
 
 void setup() {
   // UART
