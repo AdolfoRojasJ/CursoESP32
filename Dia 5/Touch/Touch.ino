@@ -14,10 +14,11 @@ void loop() {
   //Serial.println(touchRead(PAD));
   if (touchRead(PAD)<UMBRAL)
   {
-    Serial.println("TOUCHED");
-    while(touchRead(PAD)<UMBRAL){
-      delay(300);
-    }
-  }
-  Serial.println("NOT TOUCHED");
+     Serial.println("TOUCHED");
+     while(touchRead(PAD)<UMBRAL){
+       delay(300);
+     }
+     Serial.println("NOT TOUCHED");
+   }
+   delay(500);
 }
