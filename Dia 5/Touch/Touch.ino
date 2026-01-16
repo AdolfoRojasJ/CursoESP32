@@ -1,6 +1,6 @@
 //ESP32 TOUCH
 #define PAD 15
-#define UMBRAL 1544 //DEPENDE DE LA TARJETA
+#define UMBRAL 1545 //DEPENDE DE LA TARJETA Y DEL VALOR LEÍDO
 void setup() {
   //UART
   Serial.begin(115200);
@@ -11,6 +11,13 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(touchRead(PAD));
-  delay(500);
+  //Serial.println(touchRead(PAD));
+  if (touchRead(PAD)<UMBRAL)
+  {
+    Serial.println("TOUCHED");
+    while(touchRead(PAD)<UMBRAL){
+      delay(50);
+    }
+  }
+  Serial.println("NOT TOUCHED");
 }
