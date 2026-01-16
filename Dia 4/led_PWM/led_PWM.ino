@@ -4,7 +4,7 @@
 //Variables y constantes 
 #define led 2   //Dirección del led
 #define fre 1000   //Frecuencia PWM
-#define res 16   //Resoliución PEM
+#define res 16   //Resolución PEM
 #define Max (pow(2,res)-1)  //El valor maximo de ancho de pulso 
 
 void setup() {
