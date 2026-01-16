@@ -16,9 +16,9 @@ void loop() {
   {
      Serial.println("TOUCHED");
      while(touchRead(PAD)<UMBRAL){
-       delay(300);
+       delay(50);
      }
      Serial.println("NOT TOUCHED");
    }
-   delay(500);
+   delay(50);
 }
