@@ -1,6 +1,6 @@
 //ESP32 TOUCH
 #define PAD 15
-#define UMBRAL 45
+#define UMBRAL 1544 //DEPENDE DE LA TARJETA
 void setup() {
   //UART
   Serial.begin(115200);
