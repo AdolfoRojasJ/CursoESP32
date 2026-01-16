@@ -1,9 +1,15 @@
-void setup() {
-  // put your setup code here, to run once:
+//ESP32 POTENCIOMETRO ADC
+#define POT 4
 
+void setup() {
+  Serial.begin(115200);
+  delay(200);
+  Serial.println();
+  Serial.println("Señal Analógica");
+  Serial.println();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  Serial.println(analogRead(POT));
+  delay(100);
 }
