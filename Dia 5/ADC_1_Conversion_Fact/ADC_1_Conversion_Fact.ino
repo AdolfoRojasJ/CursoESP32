@@ -1,6 +1,7 @@
 //ESP32 POTENCIOMETRO ADC
 #define POT 4
-
+float voltage_write = 0;
+float conversion_factor = 3.3/4095.0;
 void setup() {
   Serial.begin(115200);
   delay(200);
@@ -10,6 +11,7 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(map(analogRead(POT),0,4095,0,3.3));
+  voltage_write = analogRead(POT) * conversion_factor;
+  Serial.println(voltage_write);
   delay(100);
 }
