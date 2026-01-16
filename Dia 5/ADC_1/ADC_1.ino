@@ -10,6 +10,6 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(analogRead(POT));
+  Serial.println(map(analogRead(POT),0,4095,0,100));
   delay(100);
 }
