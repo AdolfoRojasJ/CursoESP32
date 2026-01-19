@@ -46,6 +46,7 @@ Same blinking for 500 ms, but using definitions on the code.
 Delivers the same key that you are pressing on the Serial Monitor.
 ## Knight Rider Leds:
 Knight Rider Led secquence-like.
+<br><br>
 ![Knight Rider Secquence](./.Resources/Knight.gif)
 ## UART Serial Communication:
 Basic Serial communication code lines.
