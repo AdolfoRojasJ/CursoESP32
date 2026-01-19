@@ -8,7 +8,6 @@ Basic C++ Codes for Arduino IDE
 These are codes developed on the "ESP32 Programming and Wireless Conectivity" 10 days course, presented by [Ulises Martin Peñuelas Rivas](https://www.paginaspersonales.unam.mx/app/webroot/index.php/academicos/datosContacto/alias:ulisesmartinpeNuelas).
 Most codes tested on a Dual-MCU Development Board by [UNIT ELECTRONICS](https://uelectronics.com/producto/unit-dualmcu-esp32-rp2040-tarjeta-de-desarrollo/).
 <br><br>
-<br><br>
 <div align="center">
   <img src="https://uelectronics.com/wp-content/uploads/2023/03/AR3578-UNIT-DualMCU-ESP32-RP2040.jpg" alt="DUALMCU" width="500" />
 </div>
@@ -19,7 +18,7 @@ Most codes tested on a Dual-MCU Development Board by [UNIT ELECTRONICS](https://
     * [1.2 Led Blink v2](./Dia%201/Blinkv2/)
 * [Day 2](./Dia%202/)
     * [2.1 UART Echo](./Dia%202/Echo/)
-    * [2.2 Knigh Rider Leds](./Dia%202/KnightRider/)
+    * [2.2 Knight Rider Leds](./Dia%202/KnightRider/)
     * [2.3 UART Serial Communication](./Dia%202/SerialCOM/)
     * [2.4 UART Blink Led](./Dia%202/UARTBlink/)
 * [Day 3](./Dia%203/)
@@ -41,7 +40,12 @@ Most codes tested on a Dual-MCU Development Board by [UNIT ELECTRONICS](https://
 Basic Led blinking for 500 ms.
 ## Led Blink v2:
 Same blinking for 500 ms, but using definitions on the code.
-
+## UART Echo:
+Delivers the same key that you are pressing.
+## Knight Rider Leds:
+Knight Rider Led secquence-like.
+[](https://projects.arduinocontent.cc/thumbnails/resized-web-ed47a257-6f9e-4db5-9d32-d835e4f5bf79.gif)
+## UART Serial Communication:
 ## Week 2:
 * [Day 6](./Dia%206/)
     * [6.1 Basic DAC](./Dia%206/DAC/)

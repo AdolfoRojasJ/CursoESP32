@@ -10,6 +10,20 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  uint8_t data, dir;
+  Serial.println("Buscando");
+  for(dir=0;dir<120;dir++)
+  {
+    Wire.beginTransmission(dir)
+    {
+      data=Wire.endTransmission(dir);
+      if(data==0)
+      {
+        Serial.println("Dato encontrado en direccion 0x");
+        Serial.println(dir,HEX);
+      }
+    }
+  }
+
 
 }
