@@ -5,7 +5,11 @@ Basic C++ Codes for Arduino IDE
 </div>
 
 ## Codes for ESP32 
-These are codes developed on the "ESP32 Programming and Wireless Conectivity" 10 days course, presented by Ulises Martin Peñuelas Rivas.
+These are codes developed on the "ESP32 Programming and Wireless Conectivity" 10 days course, presented by Ulises Martin Peñuelas Rivas[UNAM](https://www.paginaspersonales.unam.mx/app/webroot/index.php/academicos/datosContacto/alias:ulisesmartinpeNuelas).
+Most codes tested on a Dual-MCU Development Board by UNIT ELECTRONICS[UNIT ELECTRONICS](https://uelectronics.com/producto/unit-dualmcu-esp32-rp2040-tarjeta-de-desarrollo/).
+<div align="center">
+  <img src="https://uelectronics.com/wp-content/uploads/2023/03/DualMCU-Pinout.pdf" alt="ESP32" width="500" />
+</div>
 
 ## Week 1:
 * [Day 1](./Dia%201/)
@@ -30,6 +34,11 @@ These are codes developed on the "ESP32 Programming and Wireless Conectivity" 10
     * [5.2 Basic ADC using conversion factor](./Dia%205/ADC_1_Conversion_Fact/)
     * [5.3 RGB Led Control by Bluetooth](./Dia%205/RGB_Bluetooth/)
     * [5.4 Touch Sensor](./Dia%205/Touch/)
+
+## Led Blink:
+Basic Led blinking for 500 ms.
+## Led Blink v2:
+Same blinking for 500 ms, but using definitions on the code.
 
 ## Week 2:
 * [Day 6](./Dia%206/)
