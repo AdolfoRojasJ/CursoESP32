@@ -8,8 +8,7 @@ void setup() {
   bt.begin("Hy3n4");
   delay(500);
   Serial.println();
-  Serial.println("Cuenta las veces que el botón es presionado con interrupcion");
-  Serial.println();
+  Serial.println("Bluetooth");
 }
 
 void loop() {
