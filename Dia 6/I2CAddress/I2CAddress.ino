@@ -12,18 +12,15 @@ void setup() {
 void loop() {
   uint8_t data, dir;
   Serial.println("Buscando");
-  for(dir=0;dir<120;dir++)
+  for(dir=0;dir<128;dir++)
   {
-    Wire.beginTransmission(dir)
+    Wire.beginTransmission(dir);
+    data=Wire.endTransmission(dir);
+    if(data==0)
     {
-      data=Wire.endTransmission(dir);
-      if(data==0)
-      {
-        Serial.println("Dato encontrado en direccion 0x");
-        Serial.println(dir,HEX);
-      }
+      Serial.println("Dato encontrado en direccion 0x");
+      Serial.println(dir,HEX);
     }
   }
-
-
+  delay(5000);
 }
