@@ -1,5 +1,5 @@
 //ESP32 - PWM
-//Controlar la intencidad del led de la tarjeta 
+//Controlar la intensidad del led de la tarjeta 
 
 //Variables y constantes 
 #define led 2   //Dirección del led
