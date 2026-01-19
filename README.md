@@ -1,7 +1,7 @@
 # Curso ESP32
 Basic C++ Codes for Arduino IDE
 <div align="center">
-  <img src="https://joy-it.net/files/files/Produkte/SBC-NodeMCU-ESP32/SBC-NodeMCU-ESP32-02.png" alt="ESP32" width="500" />
+  <img src="./.Resources/ESP32.png" alt="ESP32" width="500" />
 </div>
 
 ## Codes for ESP32 
@@ -9,7 +9,7 @@ These are codes developed on the "ESP32 Programming and Wireless Conectivity" 10
 Most codes tested on a Dual-MCU Development Board by [UNIT ELECTRONICS](https://uelectronics.com/producto/unit-dualmcu-esp32-rp2040-tarjeta-de-desarrollo/).
 <br><br>
 <div align="center">
-  <img src="https://uelectronics.com/wp-content/uploads/2023/03/AR3578-UNIT-DualMCU-ESP32-RP2040.jpg" alt="DUALMCU" width="500" />
+  <img src="./.Resources/Pinout.jpg" alt="DUALMCU" width="500" />
 </div>
 
 ## Week 1:
