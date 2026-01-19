@@ -6,7 +6,7 @@ Basic C++ Codes for Arduino IDE
 
 ## Codes for ESP32 
 These are codes developed on the "ESP32 Programming and Wireless Conectivity" 10 days course, presented by [Ulises Martin Peñuelas Rivas](https://www.paginaspersonales.unam.mx/app/webroot/index.php/academicos/datosContacto/alias:ulisesmartinpeNuelas).
-Most codes tested on a Dual-MCU Development Board by [UNIT ELECTRONICS](https://uelectronics.com/producto/unit-dualmcu-esp32-rp2040-tarjeta-de-desarrollo/).
+Most codes tested on a [Dual-MCU Development Board](https://uelectronics.com/producto/unit-dualmcu-esp32-rp2040-tarjeta-de-desarrollo/) by [UNIT ELECTRONICS](https://github.com/UNIT-Electronics).
 <br><br>
 <div align="center">
   <img src="./.Resources/Pinout.jpg" alt="DUALMCU" width="1000" />
@@ -47,6 +47,7 @@ Delivers the same key that you are pressing on the Serial Monitor.
 ## Knight Rider Leds:
 Knight Rider Led secquence-like.
 <br><br>
+
 ![Knight Rider Secquence](./.Resources/Knight.gif)
 ## UART Serial Communication:
 Basic Serial communication code lines.
