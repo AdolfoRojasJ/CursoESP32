@@ -4,7 +4,7 @@ Basic C++ Codes for Arduino IDE
   <img src="./.Resources/ESP32.png" alt="ESP32" width="500" />
 </div>
 
-## Codes for ESP32 
+# Codes for ESP32 
 These are codes developed on the "ESP32 Programming and Wireless Conectivity" 10 days course, presented by [Ulises Martin Peñuelas Rivas](https://www.paginaspersonales.unam.mx/app/webroot/index.php/academicos/datosContacto/alias:ulisesmartinpeNuelas).
 Most codes tested on a [Dual-MCU Development Board](https://uelectronics.com/producto/unit-dualmcu-esp32-rp2040-tarjeta-de-desarrollo/) by [UNIT ELECTRONICS](https://github.com/UNIT-Electronics).
 <br><br>
