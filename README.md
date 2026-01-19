@@ -5,6 +5,6 @@ Basic C++ Codes for Arduino IDE
 </div>
 
 ## Codes for ESP32 
-These are the codes developed on the ESP32 Course.
+These are the codes developed on the "ESP32 Programming and Wireless Conectivity" presented by 
 
 ## Updating
