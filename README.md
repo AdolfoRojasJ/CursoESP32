@@ -12,7 +12,7 @@ Most codes tested on a [Dual-MCU Development Board](https://uelectronics.com/pro
   <img src="./.Resources/Pinout.jpg" alt="DUALMCU" width="1000" />
 </div>
 
-## Week 1:
+# Week 1:
 * [Day 1](./Dia%201/)
     * [1.1 Led Blink](./Dia%201/Blink/)
     * [1.2 Led Blink v2](./Dia%201/Blinkv2/)
@@ -36,61 +36,60 @@ Most codes tested on a [Dual-MCU Development Board](https://uelectronics.com/pro
     * [5.3 RGB Led Control by Bluetooth](./Dia%205/RGB_Bluetooth/)
     * [5.4 Touch Sensor](./Dia%205/Touch/)
 
-### Day 1:
-## Led Blink:
+## Day 1:
+### Led Blink:
 Basic Led blinking for 500 ms.
-## Led Blink v2:
+### Led Blink v2:
 Same blinking for 500 ms, but using definitions on the code.
-### Day 2:
-## UART Echo:
+## Day 2:
+### UART Echo:
 Delivers the same key that you are pressing on the Serial Monitor.
-## Knight Rider Leds:
+### Knight Rider Leds:
 Knight Rider Led secquence-like.
 <br><br>
 
 ![Knight Rider Secquence](./.Resources/Knight.gif)
-## UART Serial Communication:
+### UART Serial Communication:
 Basic Serial communication code lines.
-## UART Blink Led:
+### UART Blink Led:
 Led's delay control using UART Communication.
-### Day 3:
-## Bluetooth Connection:
+## Day 3:
+### Bluetooth Connection:
 Communication between [Bluetooth Serial Terminal Android App](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=es_MX&gl=US&pli=1) and the ESP32.
-## Button Input:
+### Button Input:
 Basic button pressed counter.
-## Basic Interruption:
+### Basic Interruption:
 Button pressed counter using different interruption triggers.
-## Interruption with Led:
+### Interruption with Led:
 Blinky Led + Button counter handled by interruption.
-### Day 4:
-## PWM Led Control:
+## Day 4:
+### PWM Led Control:
 Led Brightness control using a PWM Signal.
-## PWM Led Control by UART:
+### PWM Led Control by UART:
 PWM Signal control by UART Protocol.
-## RGB Led Control by UART:
+### RGB Led Control by UART:
 Serial communication control for a RGB Led.
-### Day 5:
-## Basic ADC:
+## Day 5:
+### Basic ADC:
 Using ESP32's ADC to read voltage values using a Potenciometer.
-## Basic ADC using conversion factor:
+### Basic ADC using conversion factor:
 Same ADC Read Voltage but using a conversion calculated factor to obtain the voltage.
-## RGB Led Control by Bluetooth:
+### RGB Led Control by Bluetooth:
 RGB Led Control using the [Bluetooth Serial Terminal Android App](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=es_MX&gl=US&pli=1) 
-## Touch Sensor 
+### Touch Sensor 
 Basic Touch Sensor code for the ESP32.
-## Week 2:
+# Week 2:
 * [Day 6](./Dia%206/)
     * [6.1 Basic DAC](./Dia%206/DAC/)
     * [6.2 Basic DAC Harmonic Function and Trigonometrical Function Plotting](./Dia%206/DAC2/)
     * [6.3 I2C Address Finder](./Dia%206/I2CAddress)
-### Day 6:
-## Basic DAC:
+### Basic DAC:
 Connection between one of the ESP32's ADC to the DAC, use the Serial Plotter to watch the Graphic behavior.
 **Note: This Code didn't work on the Dual MCU due it doesn't have DAC Pin**
-## Basic DAC Harmonic Function and Trigonometrical Function Plotting:
+### Basic DAC Harmonic Function and Trigonometrical Function Plotting:
 Connection between one of the ESP32's ADC to the DAC, including a trigonometrical and a harmonic function, use the Serial Plotter to watch the Graphic behavior.
 **Note: This Code didn't work on the Dual MCU due it doesn't have DAC Pin**
-## I2C Addres Finder:
+### I2C Addres Finder:
 Basic code that prints the slave's address of any i2c peripherical to the Serial Monitor.
 
-### UPDATING
+# UPDATING
