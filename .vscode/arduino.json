@@ -1,6 +1,0 @@
-{
-    "board": "esp32:esp32:esp32_family",
-    "programmer": "esp32:esptool",
-    "port": "COM11",
-    "sketch": "Dia 6\\DAC\\DAC.ino"
-}
