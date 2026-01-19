@@ -44,7 +44,10 @@ Same blinking for 500 ms, but using definitions on the code.
 Delivers the same key that you are pressing.
 ## Knight Rider Leds:
 Knight Rider Led secquence-like.
-[](https://projects.arduinocontent.cc/thumbnails/resized-web-ed47a257-6f9e-4db5-9d32-d835e4f5bf79.gif)
+<div align="center">
+  <img src="https://projects.arduinocontent.cc/thumbnails/resized-web-ed47a257-6f9e-4db5-9d32-d835e4f5bf79.gif" alt="Knight Rider" width="500" />
+</div>
+
 ## UART Serial Communication:
 ## Week 2:
 * [Day 6](./Dia%206/)
