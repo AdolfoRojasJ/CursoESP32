@@ -84,7 +84,8 @@ Basic Touch Sensor code for the ESP32.
     * [6.2 Basic DAC Harmonic Function and Trigonometrical Function Plotting](./Dia%206/DAC2/)
     * [6.3 I2C Address Finder](./Dia%206/I2CAddress)
 * [Day 7](./Dia%207/)
-    * [7.1 WiFi Scanner](./Dia%206/DAC/)
+    * [7.1 WiFi Scanner](./Dia%207/WiFi_Scanner/)
+    * [7.2 ESP32 WiFI Station](./Dia%207/WiFi_Station/)
 ## Day 6:
 ### Basic DAC:
 Connection between one of the ESP32's ADC to the DAC, use the Serial Plotter to watch the Graphic behavior.
@@ -95,6 +96,10 @@ Connection between one of the ESP32's ADC to the DAC, including a trigonometrica
 ### I2C Addres Finder:
 Basic code that prints the slave's address of any i2c peripherical to the Serial Monitor.
 ## Day 7:
+### WiFi Library:
+Creation of a WiFi Library to handle the ESP32 as a WiFi Station.
 ### WiFi Scanner:
 Simple code that prints all the 2.4 GHz WiFi Connections available.
+### ESP32 WiFi Station
+Use the ESP32 to create a WiFi Station that could connect to a given WiFi Network.
 # UPDATING
