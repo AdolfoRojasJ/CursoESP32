@@ -91,5 +91,8 @@ Connection between one of the ESP32's ADC to the DAC, including a trigonometrica
 > **Note:** This Code didn't work on the Dual MCU due it doesn't have DAC Pin. Try using another ESP32 DevKit.
 ### I2C Addres Finder:
 Basic code that prints the slave's address of any i2c peripherical to the Serial Monitor.
-
+* [Day 7](./Dia%207/)
+    * [7.1 WiFi Scanner](./Dia%206/DAC/)
+### WiFi Scanner:
+Simple code that prints all the 2.4 GHz WiFi Connections available.
 # UPDATING
