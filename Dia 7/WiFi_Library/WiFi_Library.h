@@ -26,17 +26,3 @@ void connection(char *_ssid, char *_pass)
     ESP.restart();
   }
 }
-
-void setup() {
-  Serial.begin(115200);
-  delay(200);
-  connection(SSID,PASS);
-  Serial.println("Conectado a "+String(SSID));
-  Serial.println("IP Local: ");
-  Serial.println(WiFi.localIP());
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
