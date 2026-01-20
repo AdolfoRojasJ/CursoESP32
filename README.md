@@ -79,6 +79,7 @@ RGB Led Control using the [Bluetooth Serial Terminal Android App](https://play.g
 ### Touch Sensor 
 Basic Touch Sensor code for the ESP32.
 # Week 2:
+## Day 6:
 * [Day 6](./Dia%206/)
     * [6.1 Basic DAC](./Dia%206/DAC/)
     * [6.2 Basic DAC Harmonic Function and Trigonometrical Function Plotting](./Dia%206/DAC2/)
@@ -91,6 +92,7 @@ Connection between one of the ESP32's ADC to the DAC, including a trigonometrica
 > **Note:** This Code didn't work on the Dual MCU due it doesn't have DAC Pin. Try using another ESP32 DevKit.
 ### I2C Addres Finder:
 Basic code that prints the slave's address of any i2c peripherical to the Serial Monitor.
+## Day 7:
 * [Day 7](./Dia%207/)
     * [7.1 WiFi Scanner](./Dia%206/DAC/)
 ### WiFi Scanner:
