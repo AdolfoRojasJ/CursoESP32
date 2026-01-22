@@ -19,7 +19,7 @@ void setup() {
   Serial.println();
   Serial.println("Control de un led or PWM");
   Serial.println();
-}
+} 
 
 void loop() {
   for(int i=0; i<=Max; i+=500){
@@ -27,7 +27,7 @@ void loop() {
     delay(10);
   }
   for(int i=0; i<=Max; i+=500){
-    ledcWrite(led,Max-i);  //Cambia el valor del ancho de pulso
+    ledcWrite(led,Max-i);  //Cambia el valor del ancho de pulso :D
     delay(10);
   }
 }
