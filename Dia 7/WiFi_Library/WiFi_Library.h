@@ -4,6 +4,7 @@
 #define PASS NULL
 
 void connection(char *_ssid = ".:PC Puma FI:.", char *_pass = NULL);
+void hotspot(char* ssid = "Hy3n4", char* password = "qu4ck1n5hy3n4!");
 
 void connection(char *_ssid, char *_pass)
 {
@@ -27,4 +28,14 @@ void connection(char *_ssid, char *_pass)
     delay(3000);
     ESP.restart();
   }
+}
+
+void hotspot(char* ssid, char* password){
+  WiFi.mode(WIFI_AP); 
+  delay(250);
+  Serial.println("ESP32 como punto de acceso con el SSID: " + String(ssid) + "\nY la contraseña: *****");
+  WiFi.softAP(ssid, password);
+  IPAddress apIP = WiFi.softAPIP(); //Lee la dirección IP del punto de acceso.
+  Serial.print("Dirección IP: ");
+  Serial.println(apIP);
 }

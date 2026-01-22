@@ -89,6 +89,9 @@ Basic Touch Sensor code for the ESP32.
     * [7.3 ESP32 WiFI Station](./Dia%207/WiFi_Station/)
 * [Day 8](./Dia%208/)
     * [8.1 WiFi Time](./Dia%208/ESP32_Hora_WiFi/)
+* [Day 9](./Dia%209/)
+    * [9.1 WiFi Time V2](./Dia%209/ESP32_Hora_WiFi_V2/)
+    * [9.2 Exercise](./Dia%209/)
 ## Day 6:
 ### Basic DAC:
 Connection between one of the ESP32's ADC to the DAC, use the Serial Plotter to watch the Graphic behavior.
@@ -109,4 +112,6 @@ Use the ESP32 to create a WiFi Station that could connect to a given WiFi Networ
 Code by [Daredliuth](https://github.com/daredliuth)
 ### WiFi Time:
 Obtaining the current time via NTP Service.
+## Day 9:
+
 # UPDATING
