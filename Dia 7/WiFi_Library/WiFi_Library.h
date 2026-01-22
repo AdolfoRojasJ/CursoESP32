@@ -3,6 +3,8 @@
 #define SSID ".:PC Puma FI:."
 #define PASS NULL
 
+void connection(char *_ssid = ".:PC Puma FI:.", char *_pass = NULL);
+
 void connection(char *_ssid, char *_pass)
 {
   WiFi.mode(WIFI_STA);

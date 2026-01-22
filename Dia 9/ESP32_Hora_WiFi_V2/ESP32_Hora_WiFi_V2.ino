@@ -1,6 +1,7 @@
-//ESP32 - WiFi
+//ESP32 - WiFi V2
 //Solicitar un servicio de internet.
 //Solicitar las hora a un servidor NTP.
+//Print using timeinfo
 
 #include <WiFi_Library.h>
 #include <time.h> //Manejo de tiempo epoch.
@@ -29,11 +30,6 @@ void setup() {
 
 void loop() {
   int cuenta = 0;
-  int anos = 0;
-  int meses = 0;
-  int dias = 0;
-  int horas = 0;
-  int segundos = 0;
 
   while(cuenta<5){
     //Lee dato epoch.
@@ -53,4 +49,25 @@ void loop() {
       delay(1000);
     }
   }
-}
+    cuenta = 0;
+    while(cuenta<5){
+      struct tm timeinfo;
+
+      if(getLocalTime(&timeinfo)){
+        int year = timeinfo.tm_year + 1900;
+        int month = timeinfo.tm_mon+1;
+        int day = timeinfo.tm_mday;
+        int hour = timeinfo.tm_hour;
+        int min =  timeinfo.tm_min;
+        int sec = timeinfo.tm_sec;
+
+        Serial.printf("Fecha: %d/%d/%d\t Hora: %d:%d:%d \n", day,month,year,hour,min,sec);
+      }
+
+      else{
+        Serial.println("No se pudo obtener la fecha y hora");
+      }
+      cuenta++;
+      delay(1000);
+    }
+  }
