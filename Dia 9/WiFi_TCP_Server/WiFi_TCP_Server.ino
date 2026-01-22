@@ -1,7 +1,7 @@
 #include <WiFi.h>
 #include <WiFi_Library.h>
 
-WiFiServer server(714);
+WiFiServer server(666);
 
 #define ssid "CD_UNAM"
 #define pass "MegaChidoLiro"
@@ -36,6 +36,7 @@ void loop() {
   else
   {
     Serial.println("No hay cliente disponible");
+    delay(10000);
   }
 
 }

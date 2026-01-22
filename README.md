@@ -91,7 +91,8 @@ Basic Touch Sensor code for the ESP32.
     * [8.1 WiFi Time](./Dia%208/ESP32_Hora_WiFi/)
 * [Day 9](./Dia%209/)
     * [9.1 WiFi Time V2](./Dia%209/ESP32_Hora_WiFi_V2/)
-    * [9.2 WiFi TCP Server](./Dia%209/WiFi_TCP/)
+    * [9.2 WiFi TCP Cient](./Dia%209/WiFi_TCP_Client/)
+    * [9.3 WiFi TCP Server](./Dia%209/WiFi_TCP_Server/)
 ## Day 6:
 ### Basic DAC:
 Connection between one of the ESP32's ADC to the DAC, use the Serial Plotter to watch the Graphic behavior.
@@ -115,6 +116,8 @@ Obtaining the current time via NTP Service.
 ## Day 9:
 ### WiFi Time V2:
 Updating the Serial Print in order to change the format.
+### WiFi Time Client:
+Basic TCP Client.
 ### WiFi TCP Server:
-
+Basic TCP Server.
 # UPDATING
