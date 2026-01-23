@@ -139,4 +139,4 @@ UART Message sending by UDP Connection.
 > **Note:** ifconfig (To obtain the remote IP of the phone)  
 > **Note:** nc -u -l -p 60518
 ### WiFi Web Server:
-Basic WiFi Local WebServer (Doesn't Actually Work)
+Basic WiFi Local WebServer (Doesn't Actually Work).
