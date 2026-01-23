@@ -134,5 +134,5 @@ Control 4 Leds using UDP Connection.
 ### UDP UART Control:
 UART Message sending by UDP Connection.
 > **Note:** In order to send the UDP Message I used [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en-US), and then:  
-> **Note:** ifconfig (To obtain the remote IP of the phone) 
+> **Note:** ifconfig (To obtain the remote IP of the phone)  
 > **Note:** nc -u -l -p 60518
