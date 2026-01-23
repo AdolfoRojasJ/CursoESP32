@@ -1,4 +1,11 @@
 //UDP LEDS
+//USING TERMUX ANDROID APP
+//FIRST INSTALL: pkg install netcat-openbsd
+//SENDING MESSAGE: echo "MESSAGE" | nc -u [localIP] Port
+//"MESSAGE" is the message you want to send.
+//localIP is your IP Address 192.168.x.x
+//Port the value of the variable "Puerto_local"
+
 #include <WiFi.h>
 #include <WiFi_Library.h>
 
