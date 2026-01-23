@@ -127,8 +127,12 @@ Basic TCP Server.
 ## Day 10:
 ### Bidirectional UDP Communication:
 ### UDP Led Control:
-Control the power of 4 Leds using UDP Connection.
+Control 4 Leds using UDP Connection.
 > **Note:** In order to send the UDP Message I used [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en-US), and then:  
 > **Note:** pkg install netcat-openbsd  
 > **Note:** echo "UNO" | nc -u 192.168.0.56 123 ← Example
 ### UDP UART Control:
+UART Message sending by UDP Connection.
+> **Note:** In order to send the UDP Message I used [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en-US), and then:  
+> **Note:** ifconfig (To obtain the remote IP of the phone) 
+> **Note:** nc -u -l -p 60518

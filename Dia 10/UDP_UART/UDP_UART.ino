@@ -9,7 +9,7 @@ WiFiUDP udp;        //Crea instancia UDP
 #define ssid "CD_UNAM"
 #define pass "MegaChidoLiro"
 // UDP
-const char* IP_remota = "192.168.50.37";   //Dirección Ip del dispositivo remoto
+const char* IP_remota = "192.168.0.122";   //Dirección Ip del dispositivo remoto
 const uint16_t Puerto_remoto = 60518;        //Pueto del dispositivo remoto
 
 void setup() {
