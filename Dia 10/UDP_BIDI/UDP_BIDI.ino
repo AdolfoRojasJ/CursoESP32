@@ -13,7 +13,7 @@ WiFiUDP udp;        //Crea instancia UDP
 const uint16_t Puerto_local = 123;   //0 - 65535
 const uint16_t tam = 100;           //Es el número máximo de bytes que puedo recibir
 char dato_udp[tam];                //Arreglo de caracteres
-const char* IP_remota = "192.168.0.122";   //Dirección Ip del dispositivo remoto
+const char* IP_remota = "192.168.50.46";   //Dirección Ip del dispositivo remoto
 const uint16_t Puerto_remoto = 60518;        //Pueto del dispositivo remoto
 // GPIO 
 int leds[] = {15, 2, 4, 16}; //Direcciones de led

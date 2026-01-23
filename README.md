@@ -126,7 +126,7 @@ Basic TCP Client.
 Basic TCP Server.
 ## Day 10:
 ### Bidirectional UDP Communication:
-Bidirectional UDP Communication using [Code 10.2](./Dia%2010/UDP_Leds/) and [Code 10.3](./Dia%2010/UDP_UART/)
+Bidirectional UDP Communication.
 ### UDP Led Control:
 Control 4 Leds using UDP Connection.
 > **Note:** In order to send the UDP Message I used [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en-US), and then:  
