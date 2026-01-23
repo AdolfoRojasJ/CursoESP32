@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/f1b136707e.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>ESP Web Server</title>
+    <link rel="icon" type="image/x-icon" href="/perro.png">
+</head>
+<body>
+    <div class="topnav">
+      <h1>WEB SERVER MEZCLADITO</h1>
+    </div>
+
+    <!-- Contenedor de tarjetas -->
+    <div class="content">
+      <div class="cards">
+
+        <!-- ADC -->
+        <div class="card">
+          <p>
+            <i class="fa-solid fa-robot fa-bounce" style="color: #e21212;"></i>
+            ADC
+          </p>
+          <p><span class="reading"><span id="iPot"></span> %</span></p>
+        </div>
+        <!-- Luz -->
+        <div class="card">
+          <p>
+            <i class="fa-solid fa-temperature-half fa-fade" style="color: #0056b3;"></i>
+            LDR
+          </p>
+          <p><span class="reading"><span id="iLDR"></span> cd</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nuevo contenedor de tarjetas -->
+    <div class="content">
+      <div class="cards">
+        <!-- PWM Slider -->
+        <div class="card">
+          <p>
+            <i class="fa-solid fa-bolt fa-flip" style="color: #ee961b;"></i>
+            <!--<i class="fa-solid fa-bolt"></i> -->
+            PWM: 
+            <span class="reading">
+              <span id="iCT"> 
+              </span> %
+            </span>
+          </p>
+          <p>
+            <input 
+              type="range" 
+              onchange="updateSliderPWM(this)" 
+              id="pwmSlider" 
+              min="0"    
+              max="100" 
+              value=0 
+              step="1" 
+              class="slider"
+            >
+          </p>
+        </div>
+        <!-- Botón -->
+        <div class="card">
+          <p>
+            <i class="fa-regular fa-lightbulb fa-beat-fade" style="color: #00b30c;"></i> 
+            Control de led: 
+              <span class="reading"> 
+              <span id="led_sta"></span></p>
+          <button class="button" id="bot1" onclick="toggleBoton(this)">Toggle</button>
+        </div>
+
+      </div>
+
+    </div>
+
+  <divclass="content">
+    <br><br>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+

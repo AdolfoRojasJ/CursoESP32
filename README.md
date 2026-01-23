@@ -97,6 +97,7 @@ Basic Touch Sensor code for the ESP32.
     * [10.1 Bidirectional UDP Communication](./Dia%2010/UDP_BIDI/)
     * [10.2 UDP Led Control](./Dia%2010/UDP_Leds/)
     * [10.3 UDP UART Control](./Dia%2010/UDP_UART/)
+    * [10.4 WiFi Web Server](./Dia%2010/UDP_UART/)
 ## Day 6:
 ### Basic DAC:
 Connection between one of the ESP32's ADC to the DAC, use the Serial Plotter to watch the Graphic behavior.
@@ -137,3 +138,5 @@ UART Message sending by UDP Connection.
 > **Note:** In order to send the UDP Message I used [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en-US), and then:  
 > **Note:** ifconfig (To obtain the remote IP of the phone)  
 > **Note:** nc -u -l -p 60518
+### WiFi Web Server:
+Basic WiFi Local WebServer (Doesn't Actually Work)
