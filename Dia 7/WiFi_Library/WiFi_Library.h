@@ -28,6 +28,9 @@ void connection(char *_ssid, char *_pass)
     delay(3000);
     ESP.restart();
   }
+  Serial.println();
+  Serial.println("Conectado a:" + String(SSID));
+  Serial.println(WiFi.localIP());
 }
 
 void hotspot(char* ssid, char* password){
