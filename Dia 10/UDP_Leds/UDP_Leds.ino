@@ -13,8 +13,6 @@ WiFiUDP udp;        //Crea UDP
 const uint16_t Puerto_local = 123;   //0 - 65535
 const uint16_t tam = 100;           //Es el número máximo de bytes que puedo recibir
 char dato_udp[tam];                //Arreglo de caracteres
-const char* IP_remota = "192.168.50.15";   //Dirección Ip del dispositivo remoto
-const uint16_t Puerto_remoto = 60518;        //Pueto del dispositivo remoto
 // GPIO 
 int leds[] = {15, 2, 4, 16}; //Direcciones de led
 
@@ -23,7 +21,7 @@ void setup() {
   Serial.begin(115200);
   delay(200);
   Serial.println();
-  Serial.println("Comunicación bidireccional en protocolo UDP");
+  Serial.println("Recepcion de Protocolo UDP");
   Serial.println();
   
   //GPIO
@@ -34,8 +32,6 @@ void setup() {
   udp.begin(Puerto_local);        //Inicia UDP
 
   Serial.println("Puerto Local → " + String(Puerto_local));
-  Serial.println("Dirección IP Remota → " + String(IP_remota));
-  Serial.println("Puerto Remoto → " + String(Puerto_remoto));
   Serial.println();
 }
 
@@ -55,13 +51,6 @@ void loop() {
     if(dato.indexOf("TRES") != -1) digitalWrite(leds[2],1);//Enciende led
     if(dato.indexOf("CUATRO") != -1) digitalWrite(leds[3],1);//Enciende led
     Serial.println("UDP - Dato recibido → " + dato);
-    
-    //Escribe un paquete a dispositivo remoto
-    if(udp.beginPacket(IP_remota, Puerto_remoto)){//Conecta
-      Serial.println("Se envía dato...");
-      udp.println("chido"); //Envía
-      udp.endPacket();      //Termina
-    }
     
     udp.flush();//Elimina los datos en el buffer
   }
