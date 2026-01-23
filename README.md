@@ -93,6 +93,10 @@ Basic Touch Sensor code for the ESP32.
     * [9.1 WiFi Time V2](./Dia%209/ESP32_Hora_WiFi_V2/)
     * [9.2 WiFi TCP Cient](./Dia%209/WiFi_TCP_Client/)
     * [9.3 WiFi TCP Server](./Dia%209/WiFi_TCP_Server/)
+* [Day 10](./Dia%2010/)
+    * [10.1 Bidirectional UDP Communication](./Dia%2010/UDP_BIDI/)
+    * [10.2 UDP Led Control](./Dia%2010/UDP_Leds/)
+    * [10.3 UDP UART Control](./Dia%2010/UDP_UART/)
 ## Day 6:
 ### Basic DAC:
 Connection between one of the ESP32's ADC to the DAC, use the Serial Plotter to watch the Graphic behavior.
@@ -120,4 +124,7 @@ Updating the Serial Print in order to change the format.
 Basic TCP Client.
 ### WiFi TCP Server:
 Basic TCP Server.
-# UPDATING
+## Day 10:
+### Bidirectional UDP Communication:
+### UDP Led Control:
+### UDP UART Control:
